@@ -7,7 +7,7 @@
 ```TypeScript
 import { templateTransformNodes } from 'xiao-you-transform-v3'
 
-const template: string = `<div class="red" id="blue" style="color:red;">111</div>`
+const template:string = `<div id="root"><span><i><b>11</b></i></span></div>`
 
 const node = templateTransformNodes(template)
 // node = HTML NODE
@@ -22,7 +22,7 @@ import {
     nodesTransformVNodes
 } from 'xiao-you-transform-v3'
 
-const template: string = `<div class="red" id="blue" style="color:red;">111</div>`
+const template:string = `<div id="root"><span><i><b>11</b></i></span></div>`
 
 const nodes = templateTransformNodes(template)
 // node = HTML NODE
@@ -77,7 +77,7 @@ import {
     VNodesTransformRenderFunction
 } from 'xiao-you-transform-v3'
 
-const template: string = `<div class="red" id="blue" style="color:red;">111</div>`
+const template:string = `<div id="root"><span><i><b>11</b></i></span></div>`
 
 const nodes = templateTransformNodes(template)
 // node = HTML NODE
