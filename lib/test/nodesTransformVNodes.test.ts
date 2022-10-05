@@ -1,11 +1,11 @@
 import { expect, test, describe } from "vitest"
 import { nodesTransformVNodes } from "../nodesTransformVNodes"
-import { templateTransformNode } from "../templateTransformNode"
+import { templateTransformNodes } from "../templateTransformNodes"
 const template = `<div id="root"><span><i><b>11</b></i></span></div>`
 
 describe("checkNodesTransformVnodes", () => {
   test("test1", () => {
-    const nodes = templateTransformNode(template)
+    const nodes = templateTransformNodes(template)
     const anwser = {
       tag: "DIV",
       props: {

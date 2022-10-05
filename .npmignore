@@ -1,7 +1,7 @@
 # 忽略目录
 src/
 public/
-
+node_modules/
  
 # 忽略指定文件
 tsconfig.vite-config.json

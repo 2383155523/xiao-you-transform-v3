@@ -1,14 +1,20 @@
 {
   "name": "xiao-you-transform-v3",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": {
     "name": "微若蜉蝣",
     "email": "2383155523@qq.com"
   },
+  "description": "一个用来转换node vnode Vue3RenderFunction的库",
   "private": false,
   "main": "lib/index",
   "types": "lib/index.d.ts",
   "license": "MIT",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
@@ -16,6 +22,17 @@
     "test:unit": "vitest --environment jsdom",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false"
+  },
+  "keywords": [
+    "xiao-you",
+    "transform",
+    "xiao-you-transform",
+    "vue3"
+  ],
+  "homepage": "https://fuyouplus.cn",
+  "repository": {
+    "type": "gitee",
+    "url": "https://gitee.com/fuyouplus/xiao-you-transform-v3"
   },
   "dependencies": {
     "vue": "^3.2.38"

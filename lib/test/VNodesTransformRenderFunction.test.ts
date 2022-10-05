@@ -1,10 +1,10 @@
 import { expect, test, describe } from "vitest"
 import { h } from "vue"
 import { nodesTransformVNodes } from "../nodesTransformVNodes"
-import { templateTransformNode } from "../templateTransformNode"
+import { templateTransformNodes } from "../templateTransformNodes"
 import { VNodesTransformRenderFunction } from "../VNodesTransformRenderFunction"
 const template = `<div id="root"><span><i><b>11</b></i></span></div>`
-const nodes = templateTransformNode(template)
+const nodes = templateTransformNodes(template)
 const vnodes = nodesTransformVNodes(nodes)
 
 describe("checkVNodesTransformRenderFunction", () => {
