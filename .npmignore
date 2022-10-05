@@ -1,0 +1,16 @@
+# 忽略目录
+src/
+public/
+
+ 
+# 忽略指定文件
+tsconfig.vite-config.json
+tsconfig.json
+env.d.ts
+index.html
+.npmignore
+.gitignore
+vite.config.ts
+babel.config.js
+*.map
+package-lock.json
