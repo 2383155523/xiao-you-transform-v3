@@ -1,6 +1,6 @@
 {
   "name": "xiao-you-transform-v3",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "author": {
     "name": "微若蜉蝣",
     "email": "2383155523@qq.com"
@@ -8,7 +8,6 @@
   "description": "A library use for make string HTML node transform Vue3 virtual Node ||一个用来将字符串Dom节点转换成Vue3虚拟节点的库",
   "private": false,
   "main": "lib/index",
-  "types": "lib/index.d.ts",
   "license": "MIT",
   "browserslist": [
     "> 1%",
@@ -36,7 +35,8 @@
     "url": "https://gitee.com/fuyouplus/xiao-you-transform-v3"
   },
   "dependencies": {
-    "vue": "^3.2.38"
+    "vue": "^3.2.38",
+    "xiao-you-transform-v3": "0.0.7"
   },
   "devDependencies": {
     "@types/jsdom": "^20.0.0",
