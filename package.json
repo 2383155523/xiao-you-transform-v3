@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "vue": "^3.2.38",
-    "xiao-you-transform-v3": "0.0.7"
+    "xiao-you-transform-v3": "^1.0.0"
   },
   "devDependencies": {
     "@types/jsdom": "^20.0.0",
